@@ -68,8 +68,8 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _RippleDensity: 7
-    - _RippleSlimness: 5
+    - _RippleDensity: 37.13
+    - _RippleSlimness: 8.86
     - _RippleSpeed: 1
     - _SrcBlend: 1
     - _StencilRef: 0
@@ -97,7 +97,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0, g: 0.6165805, b: 1, a: 0}
+    - _Color: {r: 0.2474635, g: 0.5771977, b: 0.7830189, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _RippleColor: {r: 1.046936, g: 2.395347, b: 2.493826, a: 0}

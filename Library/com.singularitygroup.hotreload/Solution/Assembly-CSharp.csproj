@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="D:\unity-projects\ICA\GD4-ICA-KevenVokin\Assets\Scripts\Controls\GridScript.cs" />
+     <Compile Include="D:\unity-projects\ICA\GD4-ICA-KevenVokin\Assets\Scripts\Menu\MainMenu.cs" />
      <Compile Include="D:\unity-projects\ICA\GD4-ICA-KevenVokin\Assets\Scripts\Tiles\Node.cs" />
      <Compile Include="D:\unity-projects\ICA\GD4-ICA-KevenVokin\Assets\Scripts\Controls\Pathfinding.cs" />
      <Compile Include="D:\unity-projects\ICA\GD4-ICA-KevenVokin\Assets\Scripts\Tiles\Tile.cs" />

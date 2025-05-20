@@ -1,0 +1,72 @@
+2025-05-20 20:36:06.340 +02:00 [INF] Initialized user with id: 3D3F-1AB8-8792-BB15-E7D9-A820-4A2E-F37A-0A39-2A5E-1DD8-D657-AD34-4C70-91AB-4EFA
+2025-05-20 20:36:06.556 +02:00 [INF] Hot Reload Server is starting. Do not close this window.
+2025-05-20 20:36:06.556 +02:00 [INF] 
+2025-05-20 20:36:08.140 +02:00 [INF] Compiling... (the first time might take a minute, depending on project size)
+2025-05-20 20:36:19.145 +02:00 [INF] Finished compiling in 11s
+2025-05-20 20:36:19.146 +02:00 [INF] 
+2025-05-20 20:36:19.146 +02:00 [INF] Hot Reload Server is ready. Edit code to see updates in unity.
+2025-05-20 20:36:19.146 +02:00 [INF] Keep this window open while using Hot Reload (minimizing is OK)
+2025-05-20 20:38:07.496 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX.meta
+2025-05-20 20:38:07.522 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX.meta
+2025-05-20 20:38:35.180 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX/Petals.vfx.meta
+2025-05-20 20:38:35.180 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX/Petals.vfx
+2025-05-20 20:38:35.304 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX/Petals.vfx.meta
+2025-05-20 20:38:54.921 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX/WaterSplashes.vfx.meta
+2025-05-20 20:38:54.921 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX/WaterSplashes.vfx
+2025-05-20 20:38:54.921 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX/Petals.vfx.meta
+2025-05-20 20:38:56.591 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX/WaterSplashes.vfx.meta
+2025-05-20 20:42:30.174 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\Scripts/Menu/MainMenu.cs~
+2025-05-20 20:42:30.174 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\Scripts/Menu/MainMenu.cs
+2025-05-20 20:42:30.284 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\Scripts/Menu/MainMenu.cs
+2025-05-20 20:42:30.284 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\Scripts/Menu/MainMenu.cs~
+2025-05-20 20:42:32.056 +02:00 [INF] Edit requires full recompile to apply: failed to patch project 'Assembly-CSharp'.
+Common causes: editing code that failed to patch previously, an unsupported change, or a real bug in Hot Reload.
+If you think this is a bug, please report the issue on Discord and include a code-snippet before/after.
+Exception: System.InvalidOperationException: Unexpected value 'MainMenu' of type 'Microsoft.CodeAnalysis.CSharp.Symbols.SourceNamedTypeSymbol'
+   at Microsoft.CodeAnalysis.Emit.DeltaMetadataWriter.DefinitionIndexBase`1.GetRowId(T item) in C:\Users\G4G\repos\codepatcher\roslyn\src\Compilers\Core\Portable\Emit\EditAndContinue\DeltaMetadataWriter.cs:line 1449
+   at Microsoft.CodeAnalysis.Emit.DeltaMetadataWriter.CreateIndicesForNonTypeMembers(ITypeDefinition typeDef) in C:\Users\G4G\repos\codepatcher\roslyn\src\Compilers\Core\Portable\Emit\EditAndContinue\DeltaMetadataWriter.cs:line 541
+   at Microsoft.Cci.MetadataWriter.CreateIndicesFor(ITypeDefinition typeDef, Queue`1 nestedTypes) in C:\Users\G4G\repos\codepatcher\roslyn\src\Compilers\Core\Portable\PEWriter\MetadataWriter.cs:line 520
+   at Microsoft.Cci.MetadataWriter.CreateIndicesForModule() in C:\Users\G4G\repos\codepatcher\roslyn\src\Compilers\Core\Portable\PEWriter\MetadataWriter.cs:line 502
+   at Microsoft.Cci.MetadataWriter.CreateIndices() in C:\Users\G4G\repos\codepatcher\roslyn\src\Compilers\Core\Portable\PEWriter\MetadataWriter.cs:line 475
+   at Microsoft.Cci.MetadataWriter.BuildMetadataAndIL(PdbWriter nativePdbWriterOpt, BlobBuilder ilBuilder, PooledBlobBuilder& mappedFieldDataBuilder, PooledBlobBuilder& managedResourceDataBuilder, Blob& mvidFixup, Blob& mvidStringFixup) in C:\Users\G4G\repos\codepatcher\roslyn\src\Compilers\Core\Portable\PEWriter\MetadataWriter.cs:line 1781
+   at Microsoft.Cci.MetadataWriter.WriteMetadataAndIL(PdbWriter nativePdbWriterOpt, Stream metadataStream, Stream ilStream, Stream portablePdbStreamOpt, MetadataSizes& metadataSizes) in C:\Users\G4G\repos\codepatcher\roslyn\src\Compilers\Core\Portable\PEWriter\MetadataWriter.cs:line 1708
+   at Microsoft.CodeAnalysis.Compilation.SerializeToDeltaStreams(CommonPEModuleBuilder moduleBeingBuilt, EmitBaseline baseline, DefinitionMap definitionMap, SymbolChanges changes, Stream metadataStream, Stream ilStream, Stream pdbStream, ArrayBuilder`1 updatedMethods, ArrayBuilder`1 changedTypes, DiagnosticBag diagnostics, Func`2 testSymWriterFactory, String pdbFilePath, CancellationToken cancellationToken) in C:\Users\G4G\repos\codepatcher\roslyn\src\Compilers\Core\Portable\Compilation\Compilation.cs:line 3449
+   at Microsoft.CodeAnalysis.CSharp.Emit.EmitHelpers.EmitDifference(CSharpCompilation compilation, EmitBaseline baseline, IEnumerable`1 edits, Func`2 isAddedSymbol, Stream metadataStream, Stream ilStream, Stream pdbStream, CompilationTestData testData, CancellationToken cancellationToken) in C:\Users\G4G\repos\codepatcher\roslyn\src\Compilers\CSharp\Portable\Emitter\EditAndContinue\EmitHelpers.cs:line 92
+   at Microsoft.CodeAnalysis.CSharp.CSharpCompilation.EmitDifference(EmitBaseline baseline, IEnumerable`1 edits, Func`2 isAddedSymbol, Stream metadataStream, Stream ilStream, Stream pdbStream, CompilationTestData testData, CancellationToken cancellationToken) in C:\Users\G4G\repos\codepatcher\roslyn\src\Compilers\CSharp\Portable\Compilation\CSharpCompilation.cs:line 3903
+   at Microsoft.CodeAnalysis.Compilation.EmitDifference(EmitBaseline baseline, IEnumerable`1 edits, Func`2 isAddedSymbol, Stream metadataStream, Stream ilStream, Stream pdbStream, CancellationToken cancellationToken) in C:\Users\G4G\repos\codepatcher\roslyn\src\Compilers\Core\Portable\Compilation\Compilation.cs:line 3116
+   at B-;4}xn\&-y\&kttBvLSs%$iNX\,.‬⁫⁫⁮⁫⁫‮‪⁬‌‭⁪‭⁪‮‬‬⁯‮‬‪‬‏‫‪​⁫‮‪⁮‬‫‫​‮​‭‌⁮‪‮(ImmutableArray`1 , String , ImmutableDictionary`2 , Solution , ImmutableDictionary`2 , ImmutableDictionary`2 , ImmutableDictionary`2 , ImmutableDictionary`2 , ImmutableHashSet`1 , ImmutableDictionary`2 , ImmutableHashSet`1 , ⁭‌⁯​‭‎‫⁪‫⁬⁬‍‭⁫‫‫‬​‏⁪⁭‌‬⁮‬⁪⁯​‫‫‎⁯‭⁫‌‫‭⁬‍⁪‮ , ‍‏‬‏‌⁬‪‪‌‫‎‬‍⁯‌‪‭⁮‮‌⁪⁭​‫‪‌‮‏‫⁯⁭‍⁫‫⁫‮‪‎‭‬‮ , ImmutableDictionary`2 , ImmutableDictionary`2 , ImmutableDictionary`2 , ImmutableDictionary`2 , Boolean , ⁯‮‌⁯⁬‍⁭‍⁬⁮‭‏⁪⁯‭⁯‮​⁪⁯‫‍⁫‌‮‍‬‫‫⁪‏​‪‫⁭⁭⁯⁮‌‎‮ , ⁬‭⁫‎‏‏⁭‍‎⁬​⁫‏⁮⁭‍‭‪⁮‫‫‏‪⁯‍‌‮‫‌⁬‫⁯⁭‪‭‭⁯⁪​⁮‮ )
+   at B-;4}xn\&-y\&kttBvLSs%$iNX\,.‬⁫⁫⁮⁫⁫‮‪⁬‌‭⁪‭⁪‮‬‬⁯‮‬‪‬‏‫‪​⁫‮‪⁮‬‫‫​‮​‭‌⁮‪‮(ImmutableArray`1 , String , ImmutableDictionary`2 , Solution , ImmutableDictionary`2 , ImmutableDictionary`2 , ImmutableDictionary`2 , ImmutableDictionary`2 , ImmutableHashSet`1 , ImmutableDictionary`2 , ImmutableHashSet`1 , ⁭‌⁯​‭‎‫⁪‫⁬⁬‍‭⁫‫‫‬​‏⁪⁭‌‬⁮‬⁪⁯​‫‫‎⁯‭⁫‌‫‭⁬‍⁪‮ , ‍‏‬‏‌⁬‪‪‌‫‎‬‍⁯‌‪‭⁮‮‌⁪⁭​‫‪‌‮‏‫⁯⁭‍⁫‫⁫‮‪‎‭‬‮ , ImmutableDictionary`2 , ImmutableDictionary`2 , ImmutableDictionary`2 , ImmutableDictionary`2 , Boolean , ⁯‮‌⁯⁬‍⁭‍⁬⁮‭‏⁪⁯‭⁯‮​⁪⁯‫‍⁫‌‮‍‬‫‫⁪‏​‪‫⁭⁭⁯⁮‌‎‮ , ⁬‭⁫‎‏‏⁭‍‎⁬​⁫‏⁮⁭‍‭‪⁮‫‫‏‪⁯‍‌‮‫‌⁬‫⁯⁭‪‭‭⁯⁪​⁮‮ )
+2025-05-20 20:42:35.891 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX/WaterSplashes.vfx.meta
+2025-05-20 20:42:35.891 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX.meta
+2025-05-20 20:42:35.891 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Packages\com.singularitygroup.hotreload
+2025-05-20 20:44:13.708 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Packages\com.singularitygroup.hotreload
+2025-05-20 20:45:09.058 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Packages\com.singularitygroup.hotreload
+2025-05-20 20:45:35.486 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Packages\com.singularitygroup.hotreload
+2025-05-20 20:46:00.371 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Packages\com.singularitygroup.hotreload
+2025-05-20 20:47:31.963 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Packages\com.singularitygroup.hotreload
+2025-05-20 20:48:17.727 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Packages\com.singularitygroup.hotreload
+2025-05-20 20:48:30.131 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Packages\com.singularitygroup.hotreload
+2025-05-20 20:48:33.339 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Packages\com.singularitygroup.hotreload
+2025-05-20 20:49:25.425 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Packages\com.singularitygroup.hotreload
+2025-05-20 20:49:51.436 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Packages\com.singularitygroup.hotreload
+2025-05-20 20:49:58.653 +02:00 [INF] Initialized user with id: 3D3F-1AB8-8792-BB15-E7D9-A820-4A2E-F37A-0A39-2A5E-1DD8-D657-AD34-4C70-91AB-4EFA
+2025-05-20 20:49:58.790 +02:00 [INF] Hot Reload Server is starting. Do not close this window.
+2025-05-20 20:49:58.790 +02:00 [INF] 
+2025-05-20 20:49:59.976 +02:00 [INF] Compiling... (the first time might take a minute, depending on project size)
+2025-05-20 20:50:03.276 +02:00 [INF] Finished compiling in 3s
+2025-05-20 20:50:03.277 +02:00 [INF] 
+2025-05-20 20:50:03.277 +02:00 [INF] Hot Reload Server is ready. Edit code to see updates in unity.
+2025-05-20 20:50:03.277 +02:00 [INF] Keep this window open while using Hot Reload (minimizing is OK)
+2025-05-20 20:50:11.782 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Packages\com.singularitygroup.hotreload
+2025-05-20 20:50:16.296 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs
+2025-05-20 20:50:26.191 +02:00 [INF] Compiling...
+2025-05-20 20:50:27.860 +02:00 [INF] Finished compiling in 1s
+2025-05-20 20:57:40.694 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\Scenes/New Scene.unity
+2025-05-20 20:57:40.694 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\Scenes/New Scene.unity.meta
+2025-05-20 20:57:40.694 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\Scenes/Menu.unity.meta
+2025-05-20 20:57:40.694 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\Scenes/Menu.unity
+2025-05-20 20:57:43.951 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX/WaterSplashes.vfx
+2025-05-20 20:57:43.951 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\VFX/Petals.vfx
+2025-05-20 20:57:46.982 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\Scenes/Menu.unity
+2025-05-20 20:57:46.982 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\Textures/Minimap.renderTexture
+2025-05-20 20:57:46.982 +02:00 [INF] Detected change in D:/unity-projects/ICA/GD4-ICA-KevenVokin/Assets\Resources/DOTweenSettings.asset

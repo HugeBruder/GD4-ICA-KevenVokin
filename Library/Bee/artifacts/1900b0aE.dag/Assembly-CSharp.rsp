@@ -376,6 +376,7 @@
 "Assets/Scripts/Controls/CharacterController.cs"
 "Assets/Scripts/Controls/GridScript.cs"
 "Assets/Scripts/Controls/Pathfinding.cs"
+"Assets/Scripts/Menu/MainMenu.cs"
 "Assets/Scripts/Tiles/Label.cs"
 "Assets/Scripts/Tiles/Node.cs"
 "Assets/Scripts/Tiles/Tile.cs"

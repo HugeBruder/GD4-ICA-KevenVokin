@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Controls\GridScript.cs" />
+    <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Tiles\Node.cs" />
     <Compile Include="Assets\Scripts\Controls\Pathfinding.cs" />
     <Compile Include="Assets\Scripts\Tiles\Tile.cs" />

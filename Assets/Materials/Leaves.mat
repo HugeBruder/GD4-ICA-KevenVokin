@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Leaves
-  m_Shader: {fileID: -6465566751694194690, guid: 5cb9cd194314c7f43af189efd5bf0df4,
+  m_Shader: {fileID: -6465566751694194690, guid: 3735322794263824d8b8203de0642fed,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -96,6 +96,8 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
+    - _WindSpeed: 1.47
+    - _WindStrength: 1.38
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
@@ -104,6 +106,7 @@ Material:
     - _Color: {r: 0.21960786, g: 0.43137258, b: 0.21960786, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WindDirection: {r: 1.54, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7444660236399034806
 MonoBehaviour:
